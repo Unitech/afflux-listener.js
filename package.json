@@ -1,0 +1,36 @@
+{
+    "name": "afflux-listener",
+    "version": "0.0.1",
+    "description" : "Listener client for afflux",
+    "author" : {
+	"name" : "Strzelewicz Alexandre",
+	"email" : "strzelewicz.alexandre@gmail.com"
+    },
+    "keywords" : [
+	"logging",
+	"logman",
+	"logger",
+	"log",
+	"realtime",
+	"messagebus",
+	"axon"
+    ],
+    "main": "index.js",
+    "dependencies" : {
+	"axon" : "*",
+	"debug" : "*"
+    },
+    "devDependencies" : {
+	"mocha" : "*",
+	"should" : "*"
+    },
+    "engines": {
+	"node": "*"
+    },
+    "readmeFilename": "README.md",
+    "repository": {
+	"type": "git",
+	"url": "git://github.com/Alexandre-Strzelewicz/afflux-listener.js.git"
+    },
+    "license": "MIT"
+}
